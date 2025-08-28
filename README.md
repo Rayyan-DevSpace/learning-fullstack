@@ -8,14 +8,14 @@ Here, I will be practicing **HTML, CSS, JavaScript**, and later moving towards *
 ---
 
 ## 📚 Current Focus
-- Mastering **HTML basics** (tags, forms, tables, structure)  
+- Mastering **HTML basics** (tags)  
 - Learning **Git & GitHub** (repositories, commits, pushing, pulling)  
 
 ---
 
 ## 🛣️ Roadmap (Progress Tracker)
 
-- [**********] Start with **HTML basics** ✅ (100%)  
+- [*         ] Start with **HTML basics** ✅ (10%)  
 - [          ] Learn **CSS** for styling (0%)  
 - [          ] Practice **JavaScript** fundamentals (0%)  
 - [          ] Explore **DOM manipulation** & events (0%)  
