@@ -190,14 +190,34 @@
           <label for="password">Password:</label><br/>
           <input type="password" name="password" placeholder="Enter your password" id="password" minlength="6" required />
         </p>
+
+        <fieldset>
+          <legend>Personal Info</legend>
         <p>
           <label>Gender: &nbsp;</label> 
           <label for="male">male</label>
           <input type="radio" id="male" name="link-to-gender" value="male" checked/>
           <label for="female">female</label>
           <input type="radio" id="female" name="link-to-gender" value="female"/>
-
         </p>
+        <p>
+          <label for="dob">Date of Birth:<label/>
+          <input type="date" id="dob" required/>
+        </p>   
+
+        <p>
+          <label for="city">City: </label><br />
+          <input type="text" id="city" name="city" list="cities" placeholder="Type to search..." />
+          <datalist id="cities">
+            <option value="Chakwal"></option>
+            <option value="Islamabad"></option>
+            <option value="Lahore"></option>
+            <option value="Karachi"></option>
+            <option value="Peshawar"></option>
+          </datalist>
+        </p>
+        </fieldset>
+
         <fieldset>
           <legend>Role</legend>
           <label><input type="radio" name="role" value="student" checked/> Student</label>
@@ -210,18 +230,9 @@
           <label><input type="checkbox" name="int_js" /> JavaScript</label>
         </fieldset>
         
-        <p>
-          <label for="city">City: </label><br />
-          <input type="text" id="city" name="city" list="cities" placeholder="Type to search..." />
-          <datalist id="cities">
-            <option value="Chakwal"></option>
-            <option value="Islamabad"></option>
-            <option value="Lahore"></option>
-            <option value="Karachi"></option>
-            <option value="Peshawar"></option>
-          </datalist>
-        </p>
-
+       
+<fieldset>
+  <legend>Work Details</legend>
         <p>
           <label for="level">Skill Level:</label><br />
           <select id="level" name="level">
@@ -230,12 +241,16 @@
             <option value="advanced">Advanced</option>
           </select>
         </p>
-
+        <p>
+          <label for="lang">English Proficiency:<label/>
+          <input type="range" id="lang" min="16" max="35" required/>
+        </p>              
+        
         <p>
           <label for="year-experience">Years of Experience:</label><br/>
           <input type="number" id="year-experience" name="year-experience" min="0" max="10" value="0" />
         </p>
-        
+</fieldset>        
         <p>
           <label for="message">Message:</label><br />
           <textarea id="message" name="message" rows="4" cols="40" placeholder="Say something..."></textarea>
