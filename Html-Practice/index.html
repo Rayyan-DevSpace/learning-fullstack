@@ -35,6 +35,7 @@
     <a href="#table">Table</a>
     <a href="#form">Form</a>
     <a href="#media">Media</a>
+    <a href="#browser">Browser</a>
   </nav>
   <main>
     <section aria-label="About Section" id="about" class="frames">
@@ -80,7 +81,7 @@
 
      <figure>
      <!--<a href="https://youtu.be/V8IZvsRWq2s?si=zG7z3BY2B7e-xhq3" target="_blank" rel="noopener noreferrer">--> 
-        <img src="..\Resources\image.jpeg" alt="Demo image" width="100%" height="auto" usemap="#map" style="display:block; margin:10px auto; max-width: 640px;"/>
+        <img src="..\Resources\image.jpeg" alt="Demo image" width="100%" height="auto" usemap="#map" style="display:block; margin:10px auto; max-width: 640px; border-radius: 10px;"/>
         <map name="map">
           <area shape="circle" coords="320,180,50" href="https://youtu.be/V8IZvsRWq2s?si=zG7z3BY2B7e-xhq3" alt="Video Link" target="_blank" rel="noopener noreferrer" title="Click to Watch Video"/>
         </map>
@@ -228,14 +229,23 @@
 
     <audio controls autoplay loop style="display:block; margin:10px auto;">
       <source src="..\Resources\sample-audio.mp3" type="audio/mpeg" />
+      <!-- Type supported: mpeg, wav, ogg -->
       Your browser does not support the audio element.
     </audio>
 
     <h3>Video Example</h3>
-      <video controls  width="100%" height="auto" style="display:block; margin:10px auto; max-width: 640px">
+      <video controls  width="100%" height="auto" style="display:block; margin:10px auto; max-width: 640px; border-radius: 10px;">
         <source src="../Resources/rayyan-logo-motion-graphics.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+  </section>
+
+  <section aria-label="Browser Section" id="browser" class="frames">
+    <h2>Embedded Browser</h2>
+
+    <h3>Wikipedia:</h3> 
+    <iframe src="https://www.wikipedia.org/"" frameborder="0" width="100%" height="400" style="max-width:640px; display:block; margin:10px auto;"></iframe>
+
   </section>
 
   </main>
