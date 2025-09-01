@@ -15,12 +15,12 @@ Here, I will be practicing **HTML, CSS, JavaScript**, and later moving towards *
 
 ## 🛣️ Roadmap (Progress Tracker)
 
-- [******    ] Start with **HTML basics** ✅ (60%)  
+- [**********] Start with **HTML basics** ✅ (100%)  
 - [          ] Learn **CSS** for styling (0%)  
 - [          ] Practice **JavaScript** fundamentals (0%)  
 - [          ] Explore **DOM manipulation** & events (0%)  
 - [          ] Build small **frontend projects** (0%)  
-- [*******   ] Learn **Git & GitHub workflows** in detail (70%)  
+- [********  ] Learn **Git & GitHub workflows** in detail (80%)  
 - [          ] Move to **Backend (Node.js/Express)** (0%)  
 - [          ] Work with **Databases (MongoDB/PostgreSQL)** (0%)  
 - [          ] Learn **Authentication & APIs** (0%)  
@@ -38,3 +38,17 @@ This repo will be my **learning journal + project space**.
 - 📌 Progress bars will update as I move forward.  
 - 🛠️ All practice code will be organized into folders (HTML, CSS, JS, Projects).  
 - 🚀 The goal is consistency and growth, one step at a time.  
+
+
+# MY WEB LINKS
+
+## 🌐 View My HTML Website
+
+You can view my live HTML website here:
+
+[Open My HTML Website](https://rayyan-devspace.github.io/learning-fullstack/Html-Practice/index.html)
+
+### Features
+- Responsive layout
+- Basic HTML & CSS practice
+- Interactive elements like links and buttons
