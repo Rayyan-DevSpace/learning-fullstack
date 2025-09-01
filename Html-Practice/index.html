@@ -24,7 +24,7 @@
 </head>
 <body>
   <header>
-      <h1>Welcome To HTML PlayGround</h1>
+      <h1>Welcome To <span style="color: red;">HTML PlayGround</span></h1>
       <p>Here i will practice basic HTML tags to get hand on experience of how it works.</p>
   </header>
 
@@ -211,6 +211,18 @@
         </fieldset>
         
         <p>
+          <label for="city">City: </label><br />
+          <input type="text" id="city" name="city" list="cities" placeholder="Type to search..." />
+          <datalist id="cities">
+            <option value="Chakwal"></option>
+            <option value="Islamabad"></option>
+            <option value="Lahore"></option>
+            <option value="Karachi"></option>
+            <option value="Peshawar"></option>
+          </datalist>
+        </p>
+
+        <p>
           <label for="level">Skill Level:</label><br />
           <select id="level" name="level">
             <option value="beginner">Beginner</option>
@@ -261,7 +273,6 @@
  </section>
 
   </main>
-
   
   <footer>
     <p>Developed by <strong>Muhammad Rayyan Shehzad </strong>for learning. © 2025</p>
