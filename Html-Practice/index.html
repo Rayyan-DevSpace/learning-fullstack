@@ -13,7 +13,7 @@
       header, nav, main, footer { max-width: 900px; margin: 0 auto; }
       header { padding: 1rem 0; border-bottom: 1px solid #ddd; }
       nav a { margin-right: .75rem; }
-      .card { border: 1px solid #ddd; border-radius: .5rem; padding: 1rem; margin: 1rem 0; }
+      .frames { border: 1px solid #ddd; border-radius: .5rem; padding: 1rem; margin: 1rem 0; }
       table { width: 100%; border-collapse: collapse; }
       th, td { border: 1px solid #ddd; padding: .5rem; text-align: left; }
       footer { margin: 2rem auto; padding: 1rem 0; border-top: 1px solid #ddd; font-size: .95rem; }
@@ -79,7 +79,10 @@
 
 
      <figure>
-        <img src="..\Resources\Thumbnail.jpg" alt="Demo image" width="640" height="360" />
+        <img src="..\Resources\Thumbnail.jpg" alt="Demo image" width="640" height="360" style="display:block; margin:10px auto;"/>
+        
+        <!--style="display:block; margin:10px auto;" = center element with 10px top/bottom gap.-->
+        
         <figcaption>A simple demo image with proper <code>alt</code> text.</figcaption>
       </figure>
 <!--
@@ -163,6 +166,57 @@
     </table>
   </section>
 
+
+  <section aria-label="Forms Section" id="form" class="frames">
+      <h2>Form (Inputs + Labels)</h2>
+      <form action="#" method="post">
+        <p>
+          <label for="name">Name:</label><br/>
+          <input type="text" name="name"  placeholder="Enter your name" id="name" required />
+        </p>
+
+        <p>
+          <label for="email">Email:</label><br/>
+          <input type="email" name="email" placeholder="Enter your email" id="email" required />
+        </p>
+
+        <p>
+          <label for="password">Password:</label><br/>
+          <input type="password" name="password" placeholder="Enter your password" id="password" minlength="6" required />
+        </p>
+
+        <fieldset>
+          <legend>Role</legend>
+              <label><input type="radio" name="role" value="student" checked/> Student</label>
+              <label><input type="radio" name="role" value="developer"/> Developer</label>
+        </fieldset>
+        <fieldset>
+          <legend>Interests</legend>
+          <label><input type="checkbox" name="int_html" /> HTML</label>
+          <label><input type="checkbox" name="int_css" /> CSS</label>
+          <label><input type="checkbox" name="int_js" /> JavaScript</label>
+        </fieldset>
+
+          <p>
+          <label for="level">Skill Level:</label><br />
+          <select id="level" name="level">
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="4" cols="40" placeholder="Say something..."></textarea>
+        </p>
+
+        <p>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </p>
+      </form>
+    
 
 
 
