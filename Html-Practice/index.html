@@ -79,11 +79,15 @@
 
 
      <figure>
-      <a href="https://youtu.be/V8IZvsRWq2s?si=zG7z3BY2B7e-xhq3" target="_blank" rel="noopener noreferrer">
-        <img src="..\Resources\image.jpeg" alt="Demo image" width="100%" height="auto" style="display:block; margin:10px auto; max-width: 640px;"/>
-      </a>
+     <!--<a href="https://youtu.be/V8IZvsRWq2s?si=zG7z3BY2B7e-xhq3" target="_blank" rel="noopener noreferrer">--> 
+        <img src="..\Resources\image.jpeg" alt="Demo image" width="100%" height="auto" usemap="#map" style="display:block; margin:10px auto; max-width: 640px;"/>
+        <map name="map">
+          <area shape="circle" coords="320,180,50" href="https://youtu.be/V8IZvsRWq2s?si=zG7z3BY2B7e-xhq3" alt="Video Link" target="_blank" rel="noopener noreferrer" title="Click to Watch Video"/>
+        </map>
+     <!-- </a>-->
         <!--style="display:block; margin:10px auto;" = center element with 10px top/bottom gap.-->
         
+         
         <figcaption>A simple demo image with proper <code>alt</code> text.</figcaption>
       </figure>
 <!--
