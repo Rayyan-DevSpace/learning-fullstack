@@ -190,11 +190,18 @@
           <label for="password">Password:</label><br/>
           <input type="password" name="password" placeholder="Enter your password" id="password" minlength="6" required />
         </p>
+        <p>
+          <label>Gender: &nbsp;</label> 
+          <label for="male">male</label>
+          <input type="radio" id="male" name="link-to-gender" value="male" checked/>
+          <label for="female">female</label>
+          <input type="radio" id="female" name="link-to-gender" value="female"/>
 
+        </p>
         <fieldset>
           <legend>Role</legend>
-              <label><input type="radio" name="role" value="student" checked/> Student</label>
-              <label><input type="radio" name="role" value="developer"/> Developer</label>
+          <label><input type="radio" name="role" value="student" checked/> Student</label>
+          <label><input type="radio" name="role" value="developer"/> Developer</label>
         </fieldset>
         <fieldset>
           <legend>Interests</legend>
@@ -202,8 +209,8 @@
           <label><input type="checkbox" name="int_css" /> CSS</label>
           <label><input type="checkbox" name="int_js" /> JavaScript</label>
         </fieldset>
-
-          <p>
+        
+        <p>
           <label for="level">Skill Level:</label><br />
           <select id="level" name="level">
             <option value="beginner">Beginner</option>
@@ -212,6 +219,11 @@
           </select>
         </p>
 
+        <p>
+          <label for="year-experience">Years of Experience:</label><br/>
+          <input type="number" id="year-experience" name="year-experience" min="0" max="10" value="0" />
+        </p>
+        
         <p>
           <label for="message">Message:</label><br />
           <textarea id="message" name="message" rows="4" cols="40" placeholder="Say something..."></textarea>
