@@ -15,12 +15,12 @@ Here, I will be practicing **HTML, CSS, JavaScript**, and later moving towards *
 
 ## 🛣️ Roadmap (Progress Tracker)
 
-- [*         ] Start with **HTML basics** ✅ (10%)  
+- [******    ] Start with **HTML basics** ✅ (60%)  
 - [          ] Learn **CSS** for styling (0%)  
 - [          ] Practice **JavaScript** fundamentals (0%)  
 - [          ] Explore **DOM manipulation** & events (0%)  
 - [          ] Build small **frontend projects** (0%)  
-- [*         ] Learn **Git & GitHub workflows** in detail (10%)  
+- [*******   ] Learn **Git & GitHub workflows** in detail (70%)  
 - [          ] Move to **Backend (Node.js/Express)** (0%)  
 - [          ] Work with **Databases (MongoDB/PostgreSQL)** (0%)  
 - [          ] Learn **Authentication & APIs** (0%)  

@@ -37,7 +37,7 @@
     <a href="#media">Media</a>
   </nav>
   <main>
-    <section aria-label="About Section">
+    <section aria-label="About Section" id="about" class="frames">
       <h2>About This Page</h2>
       <p>This page demonstrates common HTML elements: headings, paragraphs, lists, links, images, table, form and media.</p>
       
@@ -51,10 +51,121 @@
       <h5>H5 — Nested Details</h5>
       <h6>H6 — Smallest</h6>
 
-
-      <h3>Text & Inline Elements</h3>
+      <h3>Text, Inline & Entity Elements</h3>
       <p>I am <b>Muhammad Rayyan Shehzad</b>, a <em>Computer Science</em> student of <strong>University of Chakwal</strong> and my <mark> Field Interest</mark> is in <u>Artificial Intelligence</u>. Now here are Inline & Entity tags example: <code>&lt;p&gt;Hello Doston! Let's Code with Rayyan.&lt;/p&gt;</code>.</p>
+
+      <h3>Comments</h3>
+      <p><code>&lt;!-- &nbsp;<i>Your comment here</i>&nbsp; --&gt;</code></p>
+
    </section>
+
+   <section aria-label="Links & Images" id="links" class="frames">
+    <h2>Links & Images</h2>
+    <p>
+      External Link Example:
+      <a href="https://www.youtube.com/@skyogen" target="_blank" rel="noopener noreferrer">Subscribe to Skyogen</a>
+    </p>
+<!--
+    target="_blank" → link new tab me khulta hai.
+
+    rel="noopener" → new tab ko tumhari page ki control access nai milti (safe).
+
+    rel="noreferrer" → new tab ko tumhari page ka URL pata nai chalta (privacy).
+-->
+    <p>
+      Internal Link Example: 
+     <a href="#form">Jump to Form section</a>.
+    </p>
+
+
+     <figure>
+        <img src="..\Resources\Thumbnail.jpg" alt="Demo image" width="640" height="360" />
+        <figcaption>A simple demo image with proper <code>alt</code> text.</figcaption>
+      </figure>
+<!--
+    <figure> → container jo image, diagram ya chart hold karta hai.
+    <figcaption> → us media ka description/caption deta hai.
+-->
+
+  </section>
+
+  <section aria-label="Lists Section" id="lists" class="frames">
+    <h2>Lists</h2>
+
+      <h3>My Interests</h3>
+      <h4>Unordered List (bullets)</h4>
+      <ul>
+        <li>Artificial Intelligence</li>
+        <li>Video Editing</li>
+        <li>Exploring New Tech</li>
+      </ul>
+
+      <h3>My Skills</h3>
+      <h4>Ordered List (numbered)</h4>
+       <ol>
+        <li>Python</li>
+        <li>Pandas</li>
+        <li>Numpy</li>
+      </ol>
+
+      <h3>Description List</h3>
+      <h4>Description List (terms & definitions)</h4>
+      <dl>
+        <dt>Python</dt>
+        <dd>High-level language for general-purpose programming.</dd>
+
+        <dt>Pandas</dt>
+        <dd>Library for data analysis and manipulation.</dd>
+
+        <dt>NumPy</dt>
+        <dd>Library for fast numerical computations.</dd>
+      </dl>
+
+  </section>
+
+  <section>
+    <h2>Table</h2>
+    <p>Basic table with <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, and <code>&lt;tfoot&gt;</code>:</p>
+    <table>
+      <!--Header line of table-->
+      <thead>
+        <tr>
+            <th>Course</th>
+            <th>Level</th>
+            <th>Hours</th>
+        </tr>
+      </thead>
+      <!--Main body of table-->
+      <tbody>
+        <tr>
+            <td>Python</td>
+            <td>Medium</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Pandas</td>
+            <td>Medium</td>
+            <td>4</td>
+        </tr>
+        <tr> 
+            <td>Numpy</td>
+            <td>Beginner</td>
+            <td>3</td>
+        </tr>
+      </tbody>
+      <!--Footer line of table-->
+      <tfoot>
+        <tr>
+            <td colspan="2"><strong>Total</strong></td> <!--means merge first 2 blocks in 1-->
+            <td>17</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+
+
+
+
 
   </main>
 
@@ -68,9 +179,7 @@
 
     <h3>Interests</h3>
        <ul>
-        <li>Artificial Intelligence</li>
-        <li>Video Editing</li>
-        <li>Exploring New Tech</li>
+
       </ul>
     
     <br>
