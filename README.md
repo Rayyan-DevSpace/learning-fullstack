@@ -16,7 +16,7 @@ Here, I will be practicing **HTML, CSS, JavaScript**, and later moving towards *
 ## 🛣️ Roadmap (Progress Tracker)
 
 - [**********] Start with **HTML basics** ✅ (100%)  
-- [          ] Learn **CSS** for styling (0%)  
+- [**        ] Learn **CSS** for styling (20%)  
 - [          ] Practice **JavaScript** fundamentals (0%)  
 - [          ] Explore **DOM manipulation** & events (0%)  
 - [          ] Build small **frontend projects** (0%)  
