@@ -48,6 +48,10 @@ You can view my live HTML website here:
 
 [Open My HTML Website](https://rayyan-devspace.github.io/learning-fullstack/Html-Practice/index.html)
 
+You can view my live CSS website here:
+
+[Open My CSS Website](https://rayyan-devspace.github.io/learning-fullstack/CSS-Practice/index.html)
+
 ### Features
 - Responsive layout
 - Basic HTML & CSS practice
