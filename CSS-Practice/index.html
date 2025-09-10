@@ -8,10 +8,19 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- Online Font Insert Link -->
+     <!-- Italianno -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Italianno&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italianno&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
 
@@ -29,22 +38,28 @@
   </head>
   <body>
     <h1>Welcome to the CSS PlayGround</h1>
+    <section aria-label="Introduction Section" class="cls01">
+      <!-- Inline CSS -->
+      <h2>Introduction</h2>
 
-    <!-- Inline CSS -->
-    <h2 style="color: rgb(54, 1, 67); border: 2px solid black">Hi, I’m Rayyan!</h2>
+      <h3 style="color: rgb(54, 1, 67); border: 2px solid black">
+        Hi, I’m Rayyan!
+      </h3>
 
-    <p>
-      I’ve just done with learning <strong>HTML</strong>, and now I’m stepping
-      into the exciting world of <strong>CSS</strong>.
-    </p>
+      <p>
+        I’ve just done with learning <strong>HTML</strong>, and now I’m stepping
+        into the exciting world of <strong>CSS</strong>.
+      </p>
 
-    <p>
-      <strong>CSS</strong> stands for
-      <abbr title="Cascading Style Sheets">CSS</abbr>, and it’s what makes web
-      pages look beautiful, organized, and stylish.
-    </p>
-
-    <section aria-label="Image Section">
+      <p>
+        <strong>CSS</strong> stands for
+        <abbr title="Cascading Style Sheets">CSS</abbr>, and it’s what makes web
+        pages look beautiful, organized, and stylish.
+      </p>
+    </section>
+<br />
+    <section aria-label="Image Section" class="cls01">
+      <h2>Image Section</h2>
       <figure>
         <img
           src="../Resources/image3.jpg"
@@ -56,38 +71,44 @@
       </figure>
     </section>
 
-    <section>
-      <h2>Artificial Intelligence (AI)</h2>
-      <p>
-        Artificial Intelligence refers to systems that perform tasks which
-        normally require human intelligence. These systems analyze data,
-        recognize patterns, and make decisions or recommendations. Common
-        examples include virtual assistants, image and speech recognition, and
-        recommendation engines that personalize content or services.
-      </p>
-    </section>
+<br />
 
-    <section>
-      <h2>Blockchain</h2>
-      <p>
-        Blockchain is a decentralized ledger technology that records
-        transactions in a secure, tamper-resistant way. Each record (or block)
-        links to the previous one, creating a chain that is distributed across
-        many participants. This design supports trustless transactions,
-        transparent audit trails, and applications like secure record-keeping,
-        tokenized assets, and smart contracts.
-      </p>
-    </section>
+    <div class="cls01">
+      <h2>Technology Blog</h2>
+      <section>
+        <h3>Artificial Intelligence (AI)</h3>
+        <p>
+          Artificial Intelligence refers to systems that perform tasks which
+          normally require human intelligence. These systems analyze data,
+          recognize patterns, and make decisions or recommendations. Common
+          examples include virtual assistants, image and speech recognition, and
+          recommendation engines that personalize content or services.
+        </p>
+      </section>
 
-    <section>
-      <h2>Quantum Computing</h2>
-      <p>
-        Quantum computing uses quantum bits (qubits) that can represent multiple
-        states at once, enabling certain computations to be done differently
-        than on classical computers. Quantum machines are explored for tasks
-        such as optimization, cryptography research, and simulating complex
-        physical systems where classical approaches may be slow or impractical.
-      </p>
-    </section>
+      <section>
+        <h3>Blockchain</h3>
+        <p>
+          Blockchain is a decentralized ledger technology that records
+          transactions in a secure, tamper-resistant way. Each record (or block)
+          links to the previous one, creating a chain that is distributed across
+          many participants. This design supports trustless transactions,
+          transparent audit trails, and applications like secure record-keeping,
+          tokenized assets, and smart contracts.
+        </p>
+      </section>
+
+      <section>
+        <h3>Quantum Computing</h3>
+        <p>
+          Quantum computing uses quantum bits (qubits) that can represent
+          multiple states at once, enabling certain computations to be done
+          differently than on classical computers. Quantum machines are explored
+          for tasks such as optimization, cryptography research, and simulating
+          complex physical systems where classical approaches may be slow or
+          impractical.
+        </p>
+      </section>
+    </div>
   </body>
 </html>
