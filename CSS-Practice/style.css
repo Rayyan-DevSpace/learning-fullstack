@@ -72,7 +72,15 @@ h3 {
   color: darkgreen;
 }
 
-#id03 {
+
+
+.cls02 {
     text-align: justify;
-  
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
