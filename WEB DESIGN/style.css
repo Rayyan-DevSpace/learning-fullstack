@@ -2,7 +2,7 @@ header{
     width: 100%;
     height: auto;
 
-    background-color: rgb(16, 0, 59);
+    background-color: rgb(49, 0, 102);
     color: white;
     display: flex;
     justify-content: space-around;
@@ -29,5 +29,59 @@ nav a{
 #login-btn {
     width: 100px;
     height: 35px;
+    background-color: rgb(255, 0, 119);
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
+#hero {
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(16,0,59,0.4), rgba(255,0,119,0.25)), url("../Resources/Desk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 24px rgba(16,0,59,0.2);
+    /* border-radius: 16px; */
+
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#get-started-btn {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(255, 0, 119);
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#login-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+
+
+#get-started-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}   
