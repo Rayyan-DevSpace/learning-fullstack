@@ -16,7 +16,7 @@ Here, I will be practicing **HTML, CSS, JavaScript**, and later moving towards *
 ## 🛣️ Roadmap (Progress Tracker)
 
 - [**********] Start with **HTML basics** ✅ (100%)  
-- [**        ] Learn **CSS** for styling (20%)  
+- [****      ] Learn **CSS** for styling (40%)  
 - [          ] Practice **JavaScript** fundamentals (0%)  
 - [          ] Explore **DOM manipulation** & events (0%)  
 - [          ] Build small **frontend projects** (0%)  
@@ -51,6 +51,10 @@ You can view my live HTML website here:
 You can view my live CSS website here:
 
 [Open My CSS Website](https://rayyan-devspace.github.io/learning-fullstack/CSS-Practice/index.html)
+
+You can view my live CSS 2.O website here:
+
+[Open My CSS 2.O Website](https://rayyan-devspace.github.io/learning-fullstack/WEB%20DESIGN/index.html)
 
 ### Features
 - Responsive layout
