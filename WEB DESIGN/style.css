@@ -1,0 +1,33 @@
+header{
+    width: 100%;
+    height: auto;
+
+    background-color: rgb(16, 0, 59);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#login-btn {
+    width: 100px;
+    height: 35px;
+}
+
