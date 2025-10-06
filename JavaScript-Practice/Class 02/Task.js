@@ -61,6 +61,4 @@ const purchaseCalc = (code, money) => {
   }
 };
 
-purchaseCalc("A1", 20
-    
-);
+purchaseCalc("A1", 20 );
