@@ -1,0 +1,21 @@
+Functions
+-> Built-in Functions
+-> User define Functions
+
+Popups
+-> Alert (like Notifications)
+-> Confirm (Like delete permissions)
+-> Prompt (User input dialogue box): One input at a time
+
+Popups can't run on terminals
+-> To run these we need browser, to be more precise we need HTML page
+-> don't validate input whether user input value or not
+
+
+DOM
+-> Stands for Document Object Model
+
+To change heading interactivity we need those header in JS like give access to js for h2
+
+-> We can do that by DOM
+-> document.queryselector("#one")

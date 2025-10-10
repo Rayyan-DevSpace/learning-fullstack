@@ -25,7 +25,7 @@ console.log(list)
 
 list.unshift("Mango")
 console.log(list)
-
+    
 console.log(`The length of the list is ${list.length}`);
 console.log(`The first element of the list is ${list[0]}`);
 console.log(`The last element of the list is ${list[list.length - 1]}`);
