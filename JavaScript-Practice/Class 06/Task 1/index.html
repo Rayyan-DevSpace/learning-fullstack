@@ -1,0 +1,68 @@
+<!-- Create a webpage with 3 paragraphs..... each with the class name
+"myPara".....When a button is clicked..... change the text color of the first
+paragraph to blue....the second paragraph to green.... and the third paragraph
+to yellow... And also analyse on your own that which.... method u will be using
+for this purpose....like getElementByİd or className or querySelector or
+querySelectorAll .... -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paragraph Coloring By JS</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+      #id4 {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: rgb(71, 54, 88);
+        color: white;
+        border: none;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="one" id="id1">
+      <h2>Next-gen bioprinting:</h2>
+      <p>
+        In 2025, advancements in 3D bioprinting using bio-inks containing stem
+        cells allow for the precise creation of functional, human-like tissues.
+        AI is being used to optimize tissue design in real-time.
+      </p>
+    </div>
+    <br />
+    <div class="one" id="id2">
+      <h2>Organoids for drug trials:</h2>
+      <p>
+        Researchers are growing organoids, or "mini-organs," from a patient's
+        stem cells to test drug effectiveness and safety before human trials.
+      </p>
+    </div>
+    <br />
+    <div class="one" id="id3">
+      <h2>iPSC advancements:</h2>
+      <p>
+        Techniques for creating iPSCs are becoming safer and more efficient.
+        Non-viral methods like mRNA transfection and small molecules are
+        replacing older viral methods, reducing the risk of genetic alteration.
+      </p>
+    </div>
+
+    <div id="id4">
+      <button onclick="styleParagraphs1()">Click to Style</button>
+      <button onclick="styleParagraphs2()">Click to Style</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

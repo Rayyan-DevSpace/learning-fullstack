@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      #form {
+        width: 350px;
+        height: 300px;
+        background-color: aliceblue;
+        border: 2px solid blue;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: margin-top 0.5s ease-in-out;
+        margin-top: -500px;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <h2>Welcome To JS Class 06</h2>
+    <button onclick="showpopup()">Login Form</button>
+    <br /><br />
+    <form id="form">
+      <h2>Student Information Form</h2>
+      <br />
+      <label for="email">Enter Email: </label>
+      <input type="email" id="email" name="email" />
+      <br /><br />
+      <label for="password">Enter Password:</label>
+      <input type="password" id="password" name="password" />
+      <br /><br />
+      <button type="submit">Login</button>
+    </form>
+
+    <p class="one">Login to access your student dashboard.</p>
+    <p class="one">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptatibus
+      quis fugiat necessitatibus! Maiores eaque numquam veritatis impedit, dicta
+      quia.
+    </p>
+    <p class="one">Hello World</p>
+    <script src="script.js"></script>
+  </body>
+</html>
