@@ -1,0 +1,56 @@
+<!-- Create a webpage with 4 images ...each with the class name "myImage"..... When a
+button is clicked.... change the border style of the first image to solid......
+the second image to dotted ....the third image to dashed......... and the fourth
+image to double...... -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pictures</title>
+    <style> 
+    img{
+        width: 350px;
+        height: auto;
+        border-radius: 10px;
+    }  
+    body {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        background-color: 
+      }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: rgb(255, 0, 0);
+        color: white;
+        border: none;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="myImage"
+      src="airpod1.jpg"
+      alt="Airpod Pro 2 Image 1"
+    />
+    <img class="myImage"
+      src="airpod2.jpg"
+      alt="Airpod Pro 2 Image 2"
+    />
+    <br>
+    <img class="myImage"
+      src="airpod3.jpg"
+      alt="Airpod Pro 2 Image 3"
+    />
+    <img class="myImage"
+      src="airpod4.jpg"
+      alt="Airpod Pro 2 Image 4"
+    />
+    <br>
+    <button onclick="styleImage()">Click to Style</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
