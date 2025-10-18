@@ -1,0 +1,2 @@
+JavaScript Loops
+-> for loop(no while or do while loop exis₺in js)
