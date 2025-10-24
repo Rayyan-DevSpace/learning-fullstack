@@ -63,15 +63,4 @@ let EmpData = employee_Data.map((emp) => {
   };
 });
 
-let outputDiv = document.getElementById("output");
-let html = "<ul>";
-EmpData.forEach((emp) => {
-  html += `<li>
-    <b>Name:</b> ${emp.name} <br>
-    <b>Experience:</b> ${emp.experience} <br>
-    <b>Promotion:</b> ${emp.promotion} <br>
-    <b>Salary Increment:</b> ${emp.salary_inc}
-  </li><br>`;
-});
-html += "</ul>";
-outputDiv.innerHTML = html;
+
