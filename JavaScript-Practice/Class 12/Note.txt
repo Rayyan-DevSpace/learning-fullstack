@@ -1,0 +1,33 @@
+Vanilla javascript is normal javascript
+React uses jsx
+in react we use modular approach
+we keep each and everything in separate files
+Separation of concern
+
+Common module
+EA-6 Module
+
+to make the small modules (rectangle.js, square.js) to accessible to other files for allowing to use it
+
+
+export default is used to export only one function
+
+if want₺two function to export or more then:
+export {func1, func2}
+
+
+import function_name from "file_path_with_file_name";
+
+
+synchronous
+line 1 - execute
+line 2 - error
+line 3 - no execute or terminated before execution
+line 4 -
+
+Asynchronous
+line 1 - execute
+line 2 - error
+line 3 - execute
+line 4 - execute
+
