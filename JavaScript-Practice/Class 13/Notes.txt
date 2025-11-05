@@ -1,0 +1,27 @@
+JavaScript Fundamentals: Threading & Operations
+
+1. Single-Threaded Nature
+- JavaScript is a single-threaded language
+- Can only execute one task at a time
+- No parallel execution
+
+2. Types of Operations
+
+A. Synchronous (Blocking) Operations
+- Tasks execute one after another
+- Each task must complete before next begins
+- Example scenario:
+    * Data fetch (takes 10s) → Site freezes
+    * Display data
+    * Mathematical operations (2**3, 2*4)
+    * Other operations
+
+B. Asynchronous Operations
+- Helps manage long-running tasks
+- Uses single thread efficiently
+- How it works:
+    * Long tasks (like database fetches) are delegated
+    * setTimeout function helps manage delayed execution
+    * Main thread remains free for other operations
+    * Prevents site from freezing
+
