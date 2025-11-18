@@ -1,0 +1,9 @@
+Promises
+
+Pending
+
+Resolve
+Reject
+
+both are userdefined you can use any other as well but its now become well known so we use these
+first letter caps 
