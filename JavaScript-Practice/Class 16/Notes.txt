@@ -1,0 +1,6 @@
+
+promises like .then()
+callbacks are used in case of dependent data
+async await  (Above code is same as promises just then section is changed as it forms long chains)
+
+all purpose is same
