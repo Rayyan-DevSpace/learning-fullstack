@@ -53,7 +53,8 @@ const fetchThroughID = (recData) => {
     // always first parameter is set to resolve. and second for Rejection
     setTimeout(() => {
       const person = recData.find((user) => {
-        return user.name === "Darakhshan";
+        // return user.name === "Darakhshan";
+        return user.name === "Darakhshaaaan"; //intentionally wrong for rejection demo
       });
       if (person) {
         Resolve(person);
@@ -67,11 +68,19 @@ const fetchThroughID = (recData) => {
 console.log("Fetching user data...");
 
 async function fetchUser() {
+  try{
 
     let userData = await fetchData();
     console.log(userData);
     let personName = await fetchThroughID(userData);
     console.log(personName.name.toLowerCase());
+    }
+    catch(err) 
+    {
+      console.log(err);
+    }
 }
 
 fetchUser();
+
+console.log("End of Script"); 
